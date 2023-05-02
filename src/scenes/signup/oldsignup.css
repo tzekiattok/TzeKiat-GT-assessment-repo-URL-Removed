@@ -1,0 +1,115 @@
+.login {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #F7F7FC;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      background-color: #1B1C1E;
+      border-radius: 10px;
+      margin: 0.5rem;
+      max-width: 60%;
+
+    }
+  }
+  
+  .passwordReq {
+    color: rgb(236, 233, 233) !important;
+  }
+  .max-len{
+    width:100%;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+  .passwordError{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: red;
+    margin-top: 0.2rem;  
+  }
+  @media screen and (max-width: 600px) {
+    .login {
+        text-align: center;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #1B1C1E;
+      }
+  
+  }
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+    color: white !important;;
+
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #1B1C1E;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
