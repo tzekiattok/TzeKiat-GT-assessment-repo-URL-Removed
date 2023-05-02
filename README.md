@@ -32,10 +32,12 @@ Backend
 
 Accounts:
 Admin: 
-toktzekiat@gmail.com
-Unclejack1*
+username: toktzekiat@gmail.com
+Password: Unclejack1*
 
 As for regular user account, you can choose to sign up using your own email. I do not have any capability to see your credentials since it is handled by cognito.
+
+* Front-end files are in src/scenes for UI, src/components for authorization logic
 
 For more detailed documentation with images:
 https://docs.google.com/document/d/1oCcZT5O2bhiQejXmT7ux_A9jXXaSNYPBwXM-JKKYd1A/edit?usp=sharing
